@@ -44,7 +44,7 @@ My Projects
     <!-- navigation lists -->
     <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="my_first_practical_exam.php">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#" name = "users" data-toggle="modal" data-target="#usersModal">Employees</a>
