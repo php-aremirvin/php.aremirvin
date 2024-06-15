@@ -2,7 +2,8 @@ this is my first practical exam.
 first of all i would like to apologize because, 
 the Github page cannot read an PHP file
 i hope my attachments will meet your requirements for my 
-examination thank you!
+examination thank you! please see my PHP file for your
+references 
 
 
 <!DOCTYPE html>
