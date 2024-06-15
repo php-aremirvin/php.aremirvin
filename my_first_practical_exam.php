@@ -25,7 +25,48 @@
 </head>
 <body>
     
+<!-- navigation div -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light m-3 p-3 shadow">
 
+    <div class="navbar-brand ">PHILTRUST BANK BULACAN LIST OF EMPLOYEES</div>
+
+    <!-- hamburger toggler icon -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <!-- hamburger icon navigation lists  -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+
+    <!-- navigation lists -->
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="my_first_practical_exam.php">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" name = "users" data-toggle="modal" data-target="#usersModal">Employees</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="#" data-toggle="modal" data-target="#logoutModal">Log-out</a>
+      </li>
+    </ul>
+    </div>
+</nav>
+
+ <!-- array declaration for table contents -->
+<?php
+    $employees = array(
+        array("Name" => "Apolonio Dorupa", "Position" => "Manager", "Salary" => "100,000"),
+        array("Name" => "Herson Chua", "Position" => "Assistant Cashier", "Salary" => "P80,000"),
+        array("Name" => "Minnie Marteja", "Position" => "Senior Accounts Officer", "Salary" => "P75,000"),
+        array("Name" => "Jonalin Antillon", "Position" => "Scale 10", "Salary" => "P60,000"),
+        array("Name" => "Tina Victolero", "Position" => "Scale 7", "Salary" => "P50,000"),
+        array("Name" => "Pamela Amor Balasabas", "Position" => "Scale 10", "Salary" => "P55,000"),
+        array("Name" => "Rina Avigail Alejaga", "Position" => "Scale 7", "Salary" => "P35,000"),
+        array("Name" => "John Kristofer Pasos", "Position" => "Scale 6", "Salary" => "P30,000"),
+        array("Name" => "AREM IRVIN NICDAO", "Position" => "DEVELOPER", "Salary" => "P40,000"),
+        );
+?>
 
  <!-- displaying of table contents -->        
 <div class = "m-3 p-3 border-start border-secondary border-5">
