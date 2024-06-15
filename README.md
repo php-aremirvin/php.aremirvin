@@ -1,20 +1,8 @@
 this is my first practical exam. 
 first of all i would like to apologize because, 
-the Github page cannot read an HTML file
+the Github page cannot read an PHP file
 i hope my attachments will meet your requirements for my 
 examination thank you!
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <!DOCTYPE html>
